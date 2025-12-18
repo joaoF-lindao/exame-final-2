@@ -1,0 +1,3 @@
+githhub:  https://github.com/joaoF-lindao/exame-final-2.git
+
+vercel:  https://exame-final-2.vercel.app/

@@ -31,7 +31,9 @@ function verificarUsuarioLogado(req, res, next) {
 }
 
 function dataBR(data) {
-  return data.toLocaleDateString("pt-BR") + " " + data.toLocaleTimeString("pt-BR");
+  return data.toLocaleString("pt-BR", {
+    timeZone: "America/Sao_Paulo"
+  });
 }
 
 function emailValido(email) {
